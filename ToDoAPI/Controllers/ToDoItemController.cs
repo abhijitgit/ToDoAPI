@@ -51,7 +51,7 @@ namespace ToDoAPI.Controllers
             todoItem.Description = toDo.Description;
             todoItem.DueDate = toDo.DueDate;
             todoItem.StatusId = toDo.StatusId;
-            todoItem.Category = toDo.Category;
+            todoItem.CategoryId = toDo.CategoryId;
             todoItem.Priority = toDo.Priority;
 
             _todoContext.ToDoItems.Update(todoItem);
