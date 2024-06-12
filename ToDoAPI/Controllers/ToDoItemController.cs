@@ -50,7 +50,7 @@ namespace ToDoAPI.Controllers
             todoItem.Name = toDo.Name;
             todoItem.Description = toDo.Description;
             todoItem.DueDate = toDo.DueDate;
-            todoItem.Status = toDo.Status;
+            todoItem.StatusId = toDo.StatusId;
             todoItem.Category = toDo.Category;
             todoItem.Priority = toDo.Priority;
 

@@ -9,5 +9,6 @@ namespace ToDoAPI.Context
             
         }
         public DbSet<ToDoItem> ToDoItems { get; set; }
+        public DbSet<Status> Statuses { get; set; }
     }
 }
